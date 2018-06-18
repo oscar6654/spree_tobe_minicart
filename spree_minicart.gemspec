@@ -17,18 +17,9 @@ Gem::Specification.new do |s|
   s.requirements << 'none'
 
   # doesn't work with rails 4.1.10
-  s.add_dependency 'rails', '4.1.11'
+  
 
   s.add_dependency 'sprockets', '~> 2.12'
   s.add_dependency 'spree_core', '~> 3.2.7'
   
-  s.add_development_dependency 'capybara', '~> 2.4'
-  s.add_development_dependency 'factory_girl', '~> 4.5'
-  s.add_development_dependency 'rspec-rails',  '~> 3.2'
-  s.add_development_dependency 'sass-rails', '~> 4.0'
-  s.add_development_dependency 'coffee-rails', '~> 4.1'
-  s.add_development_dependency 'selenium-webdriver'
-  s.add_development_dependency 'database_cleaner'
-  s.add_development_dependency 'sqlite3'
-  s.add_development_dependency 'ffaker'
 end
